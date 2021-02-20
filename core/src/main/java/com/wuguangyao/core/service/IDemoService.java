@@ -1,5 +1,7 @@
 package com.wuguangyao.core.service;
 
-public interface DemoService {
+public interface IDemoService {
+
     String hello();
+
 }

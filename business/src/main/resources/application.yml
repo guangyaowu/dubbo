@@ -5,4 +5,8 @@ server:
 dubbo:
     application:
         name: business
-        registry: zookeeper://127.0.0.1:2181
+#        registry: zookeeper://127.0.0.1:2181
+    registry:
+        protocol: zookeeper
+        address: 127.0.0.2
+        port: 2222
