@@ -1,0 +1,8 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /message
+dubbo:
+  application:
+    name: message
+    registry: zookeeper://127.0.0.1:2181
